@@ -1,0 +1,18 @@
+{
+    "routes": [
+      {
+        "route": "/assets/*",
+        "headers": {
+          "Cache-Control": "public, max-age=31536000, immutable",
+          "Content-Type": "application/javascript"
+        }
+      }
+    ],
+    "mimeTypes": {
+      ".js": "text/javascript",
+      ".mjs": "text/javascript",
+      ".json": "application/json",
+      ".css": "text/css"
+    }
+  }
+  
